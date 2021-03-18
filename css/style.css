@@ -1,0 +1,109 @@
+/* body 
+1. позиционирование 
+2. цвет
+3. шрифт
+4. анимация
+ */
+
+:root {
+  --main-bgc: #282828;
+  --secondary-bgc: #e6e3c4;
+  --footer-bgc: #998431;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+}
+/* ========================COMPONENTS======================== */
+/* ======================END COMPONENTS====================== */
+
+/* ========================HEADER======================== */
+/* ======================END HEADER====================== */
+
+/* ========================HERO======================== */
+/* ======================END HERO====================== */
+
+/* ========================DESCRIPTION======================== */
+.description {
+  background-color: var(--main-bgc);
+}
+
+/* ======================END DESCRIPTION====================== */
+
+/* ========================COLLECTION======================== */
+.collection {
+  background-color: var(--secondary-bgc);
+}
+/* ======================END COLLECTION====================== */
+
+/* ========================FORM======================== */
+.form {
+  background-color: var(--main-bgc);
+}
+/* ======================END FORM====================== */
+
+/* ========================FOOTER======================== */
+.footer {
+  background-color: var(--footer-bgc);
+}
+/* ======================END FOOTER====================== */
